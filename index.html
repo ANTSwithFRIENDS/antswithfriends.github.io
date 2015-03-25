@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="description" content="Wir sind ein freies Netz von Online-Experten" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/site.css" />
+
+  <script type="text/javascript" src="js/jquery.fancybox/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.tweet.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <title>ANTS with FRIENDS</title>
+
+</head>
+
+<body id="home">
+
+  <div class="container_16 content">
+
+    <div class="container_16 main" id="home_page">
+
+      <div><img id="hill-std" src="img/home-bg.jpg" alt="" /></div>
+
+      <div class="grid_9" id="marke">
+        <a href="index.html"><img src="img/marke.png" alt="ANTS with FRIENDS" /></a>
+      </div>
+
+      <div class="grid_7" id="navi">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="manifest.html">Manifest</a></li>
+          <li><a href="referenzen.html">Referenzen</a></li>
+          <li><a href="kolonie.html">Kolonie</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="clear">&nbsp;</div>
+
+      <div class="grid_16" id="claim">
+        <img src="img/home-head.png" alt="Wir sind Online Experten mit dem Hang zur guten Vernetzung" />
+      </div>
+
+      <div class="clear">&nbsp;</div>
+
+      <div class="grid_11" id="intro">
+        <img src="img/home-logo.png" alt="" />
+        <img id="text" src="img/home-intro.png" alt="" />
+        <p id="sub-text">Die ANTS with FRIENDS sind Ihr Schlüssel zu diesen neuen Ressourcen.</p>
+      </div>
+
+      <div class="grid_5" id="twitter">
+        <div id="tweets-header">Was gerade so alles passiert</div>
+        <div id="tweets">
+          <div id="twitter_div">
+            <div class="tweet"></div>
+          </div>
+        </div>
+        
+        <div id="tweets-footer">
+          <a href="https://twitter.com/antswithfriends/ants">alle Tweets lesen</a>
+        </div>
+      </div>
+
+      <div class="clear">&nbsp;</div>
+      <div class="push"></div>
+
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <div class="container_12">
+      <div class="grid_3">
+        <p>&copy; ANTS with FRIENDS</p>
+      </div>
+      <div class="grid_9">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="manifest.html">Manifest</a></li>
+          <li><a href="referenzen.html">Referenzen</a></li>
+          <li><a href="kolonie.html">Kolonie</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="https://www.facebook.com/ANTSwithFRIENDS">Facebook</a></li>
+          <li><a href="https://www.flickr.com/photos/antswithfriends/">flickr</a></li>
+          <li><a href="https://twitter.com/antswithfriends">Twitter</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    jQuery(function($){
+      $(".tweet").tweet({
+        username: "antswithfriends",
+        list: "ants",
+        join_text: "auto",
+        auto_join_text_default: "",             
+        auto_join_text_ed: "",                   
+        auto_join_text_ing: "",               
+        auto_join_text_reply: "",    
+        auto_join_text_url: "",
+        count: 4,
+        template: "{user}{join}{text}",
+        loading_text: "Lade Tweets ..."
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+  //<![CDATA[
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  //]]>
+  </script>
+  <script type="text/javascript">
+  //<![CDATA[
+  try {
+  var pageTracker = _gat._getTracker("UA-11720170-1");
+  pageTracker._trackPageview();
+  } catch(err) {}
+  //]]>
+  </script>
+
+</body>
+</html>

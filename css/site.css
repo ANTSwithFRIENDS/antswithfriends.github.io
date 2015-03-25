@@ -1,0 +1,210 @@
+html, body, .content { background-color: #2D2824; height:100%; }
+.content { height: auto; min-height: 100%; background-image: url(../img/bg.jpg); background-repeat: repeat-x; } /* -- Um den Footer unten zu fixieren -- */
+.main { padding-bottom: 112px; }
+#home { background-image: url(../img/bg-home.jpg); background-repeat: repeat-x; }
+#page { background-image: url(../img/bg.jpg); background-repeat: repeat-x; }
+
+#hill-manifest { position: absolute; z-index:0; display: inline; margin-left: 300px; }
+#hill-referenzen { position: absolute; z-index:0; display: inline; margin-left: 385px; }
+#hill-kolonie { position: absolute; z-index:0; display: inline; margin-left: 475px; }
+#hill-kontakt { position: absolute; z-index:0; display: inline; margin-left: 545px; }
+#hill-std { position: absolute; z-index:0; display: inline; }
+
+
+/* -------Standard Text color for all pages -------------------------------------------------------*/
+.container_16 p { font-family: Georgia, "Times New Roman", Times, serif; color: #C5B09E; font-size: 115%; }
+.container_16 .alternate { color: #796C61; }
+
+#logo { padding-top: 3.6em; }
+#header { padding-top: 8.4em; }
+
+/* ------ Referenz Page Styles --------------------------------------------------------------------- */
+#referenzen .row { width: 100%; list-style: none; }
+#referenzen .row li { float: left; width: 134px; height: 118px; margin: 0 0 30px 0; padding: 0px; }
+#referenzen .row li a { text-decoration: none; }
+#referenzen .row li img { margin: 8px 0 0 9px; }
+#referenzen .row li p { color: #C5B09E; font-size: 12px; width: 112px; margin: 4px 0 0 0; text-align: center; font-family: Helvetica, sans-serif; }
+
+#referenzen .row li { background: url(../img/referenzen-brands.png) no-repeat top left; }
+#referenzen .row .allianz { background-position: 0 0; }
+#referenzen .row .aspirin { background-position: 0 -168px; }
+#referenzen .row .comdirect { background-position: 0 -336px; }
+#referenzen .row .draeger { background-position: 0 -504px; }
+#referenzen .row .dummy { background-position: 0 -672px; }
+#referenzen .row .labello { background-position: 0 -840px; }
+#referenzen .row .mikes { background-position: 0 -1008px; }
+#referenzen .row .nivea { background-position: 0 -1176px; }
+#referenzen .row .otto { background-position: 0 -1344px; }
+#referenzen .row .radio_de { background-position: 0 -1512px; }
+#referenzen .row .spiegel { background-position: 0 -1680px; }
+#referenzen .row .t_mobile { background-position: 0 -1848px; }
+#referenzen .row .tui { background-position: -168px 0; }
+#referenzen .row .vw { background-position: -168px -168px; }
+
+/* ------ Navigations Styles --------------------------------------------------------------------- */
+#navi { padding-top:3.8em; margin-left: 10px; list-style: none; }
+#navi li { float: left; margin-left: 0em; padding: 0; margin-left: 1.2em; font-family: "Helvetica", sans-serif; list-style: none; }
+#navi a { float: left; display: block; padding: 1px 1px; color: #100B09; font-weight: bold; text-decoration: none; font-size:118%; }
+#navi a:hover { color: #D89E00; }
+#navi ul li.active a:link, #navi ul li.active a:visited { color: #D89E00; }
+
+#content { padding-top: 3em; }
+
+/* ------ Home Page Styles --------------------------------------------------------------------- */
+#home_page { margin-bottom: 10px; }
+#home_page #claim { margin-top: 23px; }
+#home_page #intro img { margin-top: 22px; display: block; }
+#home_page #intro #text { margin-top: 6px; }
+#sub-text { margin: 15px 120px 0 0; }
+.dots { font-weight: bold; font-size: 1.5em; font-family: Helvetica, Verdana, Arial, sans-serif; background-image: url(../img/dots.png); background-repeat: no-repeat; color:white; height: 2em; padding-top: 8px; margin-top: 12px; }
+#marke { margin-top: 50px; }
+#headline { margin-bottom: 30px; }
+#sign { margin-top: 32px; }
+
+/* ------ Manifest Styles --------------------------------------------------------------------- */
+
+/* ------ Profile Styles --------------------------------------------------------------------- */
+.profil { margin-bottom: 2em; }
+.profil h1 { font-size: 150%; font-weight: bold; }
+
+/* ------ Imprint Styles ---------------------------------------------------------------------- */
+#impressum { color: #C6B19F; }
+#impressum p a { text-decoration: underline; color: #C6B19F; }
+
+/* ------ Shop Styles --------------------------------------------------------------------- */
+#shop { margin-top: 130px; }
+
+/* ------ Contact Styles ---------------------------------------------------------------------- */
+#kontakt { color: #C6B19F; }
+#kontakt label span { display: block; font-size: 12px; margin-bottom: 8px; }
+#kontakt input, textarea {
+  font-family: Georgia, "Times New Roman", Times, serif; font-size: 15px;
+  border: 0px;
+  background-color: #796C61;
+  color: #FFFFFF;
+  height: 28px;
+  width: 100%;
+  padding: 3px 0 0 3px;
+  margin-bottom: 15px;
+  font-size: 115%;
+}
+#kontakt textarea { height: 243px; }
+#kontakt #submit_button {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background: url(../img/submit-button.png);
+  padding-top: 4px;
+  text-align: center;
+/*  height: 22px;*/
+  width: 94px;
+  color: #100b09;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+  cursor: pointer;
+}
+
+/* ------ Contact message Area Styles --------------------------------------------------------------------- */
+#contact-msg p { height: 350px; }
+
+/* ------ Twitter Area Styles --------------------------------------------------------------------- */
+#twitter { right: 20px; top: 30px; margin-bottom: 70px; }
+#tweets-header {
+  background-image: url(../img/quote-on.png);
+  background-repeat: no-repeat;
+  color: #4f463f;
+  font-size: 21px;
+  height: 50px;
+  font-weight: bold;
+  padding-left: 90px;
+  line-height: 110%;
+}
+
+
+#tweets-footer { background-image: url(../img/quote-off.png); background-repeat: no-repeat; background-position: right; color: #4f463f; font-size: 21px; height: 50px; margin: 0 0 0 30px; }
+#tweets-footer a { color: #C5B09E;  text-decoration: underline; font-size: 11px; font-style: italic; }
+#tweets { width: 302px; height: 468px; background-image: url(../img/bubbles.png); background-repeat: no-repeat; }
+
+/* ------ Twitter Styles --------------------------------------------------------------------- */
+.tweet { position: relative; }
+.tweet .tweet_first { position: relative; top:-5px; } /* Herumgeschiebe, da die Bubbles der Grafik nicht alle den gelichen Abstand haben */
+.tweet ul { list-style: none; font-family: helvetica, arial sans-serif; position: relative; top: 5px;}
+.tweet li {  font-size: 12px;  line-height: 17px; color: #C5B09E;  height: 93px; margin: 0px 15px 15px 18px; padding-top: 9px; }
+.tweet li a { color: #2D2824; text-decoration: none; border-bottom: 1px dotted #2D2824; font-family: georgia; }
+.tweet li div a { color: #2D2824; text-decoration: none; border-bottom: 0px; font-family: helvetica, arial sans-serif; font-size: 12px; }
+.tweet li span a { color: #2D2824; text-decoration: none; border-bottom: 0px; font-family: helvetica, arial sans-serif; font-size: 12px; }
+
+.tweet .loading { position: relative; top: 45px; left:80px; }
+/* ------ Kolonie Page Styles --------------------------------------------------------------------- */
+#kolonie .row { float: left; width: 100%; list-style: none; }
+#kolonie .row li { float: left; height: 148px; width: 134px; margin: 0 0 15px 0; padding: 0px; }
+#kolonie .row li a { text-decoration: none; float: left; height:148px; width: 134px; display: block; }
+#kolonie .row li span { display: block; position: relative; top: 118px; color: #C5B09E; font-size: 12px; line-height: 1.2em; width: 112px; left: 3px; margin: 0 0 0 0; text-align: center; font-family: Helvetica, sans-serif; }
+#kolonie .row li .pic { position: relative; top: -145px; left: 8px; z-index: -9; }
+
+.ant-rahmen-hover { background-image: url(../img/ant-rahmen-hover.png); background-repeat: no-repeat; }
+.ant-rahmen-dummy { background-image: url(../img/ant-rahmen-dummy.png); background-repeat: no-repeat; width: 118px; height: 148px; }
+/* ------ Kolonie Detail Page Styles --------------------------------------------------------------------- */
+#ants { display: none; position: absolute; left: 1000px; top:1000px; }
+.profiles { z-index:1; }
+div#fancybox-inner .inner { height: 100%; padding: 60px 60px 0 60px; background: url('../img/bg-ant-detail.png') no-repeat; border: 0px; }
+div#fancybox-inner .logo { position: absolute; top: 15px; left: 60px; z-index: 100; }
+div#fancybox-inner .pic { float: left; position: relative; width: 117px; height: 117px; }
+div#fancybox-inner .pic .ant, div#fancybox-inner .pic .ant_bg { position: absolute; }
+div#fancybox-inner .pic .ant_bg { top: 0px; left: 0px; }
+div#fancybox-inner .pic .ant { top: 8px; left: 7px; }
+div#fancybox-inner h1 { font-family: Helvetica; font-weight: bold; font-size: 24px; color: #ffffff; margin-bottom: 0px; }
+div#fancybox-inner h2 { font-family: Helvetica; font-weight: bold; font-size: 14px; color: #000000; margin-bottom: 0px; }
+div#fancybox-inner h3 { font-family: Helvetica; font-weight: bold; font-size: 12px; color: #000000; }
+div#fancybox-inner p { font-family: Georgia; font-size: 15px; color: #FFFFFF; margin-top: 10px; }
+div#fancybox-inner .contact { position: relative; left: 10px; }
+div#fancybox-inner .contact p { font-family: Helvetica; font-weight: bold; font-size: 14px; color: #000000; margin: 0; }
+div#fancybox-inner .contact table { font-family: Helvetica; font-weight: bold; font-size: 14px; color: #000000; margin-top: 10px; }
+div#fancybox-inner .contact table td { width: 100px; }
+div#fancybox-inner .contact table a { border-bottom: 1px dotted #000000; font-family: Helvetica; font-weight: bold; font-size: 14px; color: #000000; text-decoration: none; }
+div#fancybox-inner p.description { height: 175px;}
+
+/* ------ Ants Rollover Photos --------------------------------------------------------------------- */
+#kolonie .row li#andreas-popp          { background: url('../img/ants/andreas_popp_off.png') no-repeat top left; } 
+#kolonie .row li#bahne-carstensen      { background: url('../img/ants/bahne_carstensen_off.png') no-repeat top left; } 
+#kolonie .row li#frank-oetke           { background: url('../img/ants/frank_oetke_off.png') no-repeat top left; } 
+#kolonie .row li#hendrike-heydenreich  { background: url('../img/ants/hendrike_heydenreich_off.png') no-repeat top left; } 
+#kolonie .row li#liron-tocker          { background: url('../img/ants/liron_tocker_off.png') no-repeat top left; } 
+#kolonie .row li#matthias-bauer        { background: url('../img/ants/matthias_bauer_off.png') no-repeat top left; } 
+#kolonie .row li#michael-nordmeyer     { background: url('../img/ants/michael_nordmeyer_off.png') no-repeat top left; } 
+#kolonie .row li#martin-thielecke      { background: url('../img/ants/martin_thielecke_off.png') no-repeat top left; } 
+#kolonie .row li#nicole-behnke         { background: url('../img/ants/nicole_behnke_off.png') no-repeat top left; } 
+#kolonie .row li#tillmann-bielefeld    { background: url('../img/ants/tillmann_bielefeld_off.png') no-repeat top left; } 
+#kolonie .row li#ralph-moecklinghoff   { background: url('../img/ants/ralph_moecklinghoff_off.png') no-repeat top left; } 
+#kolonie .row li#soeren-petsch         { background: url('../img/ants/soeren_petsch_off.png') no-repeat top left; } 
+#kolonie .row li#tobias-worzyk         { background: url('../img/ants/tobias_worzyk_off.png') no-repeat top left; } 
+#kolonie .row li#paul-watmough         { background: url('../img/ants/paul_watmough_off.png') no-repeat top left; } 
+#kolonie .row li#astrid-borgmann       { background: url('../img/ants/astrid_borgmann_off.png') no-repeat top left; } 
+#kolonie .row li#alexander-weber       { background: url('../img/ants/alexander_weber_off.png') no-repeat top left; }
+#kolonie .row li#kati-schroeder        { background: url('../img/ants/kati_schroeder_off.png') no-repeat top left; }
+#kolonie .row li#thomas-latus          { background: url('../img/ants/thomas_latus_off.png') no-repeat top left; }
+#kolonie .row li#hanna-pohlmeyer       { background: url('../img/ants/hanna_pohlmeyer_off.png') no-repeat top left; }
+#kolonie .row li#kristjan-kristjansson { background: url('../img/ants/kristjan_kristjansson_off.png') no-repeat top left; }
+#kolonie .row li#sven-steinheisser     { background: url('../img/ants/sven_steinheisser_off.png') no-repeat top left; }
+#kolonie .row li#benjamin-behr         { background: url('../img/ants/benjamin_behr_off.png') no-repeat top left; }
+#kolonie .row li#moritz-wagner         { background: url('../img/ants/moritz_wagner_off.png') no-repeat top left; }
+#kolonie .row li#claudia-boehm         { background: url('../img/ants/claudia_boehm_off.png') no-repeat top left; }
+
+/* ------ Footer Styles ---------------------------------------------------------------------- */
+#footer { background-color: #1E1B18; position: relative;  margin-top: -112px; height: 112px; clear:both; }
+#footer p { margin: 25px 0 0 0; font-family: Helvetica, Gill, sans-serif; color: #7a6c61; }
+#footer ul { font-family: "Helvetica", sans-serif; list-style: none; margin-top: 28px; float:right; }
+#footer li { float: left; margin-left: 0.4em; }
+#footer a { display: block; color: #7a6c61; text-decoration: none; margin-left: 20px; }
+#footer a:hover { border-bottom: 1px dotted; }
+#footer li.active a:link, #navi li.active a:visited { color: #C5B09E; }
+
+/* ------ Overwrite fancybox Styles ---------------------------------------------------------------------- */
+div#fancybox-outer { background-color: transparent; }
+span#fancybox-left-ico, span#fancybox-right-ico { top: 85%; }
+
+a#fancybox-right, a#fancybox-left { width: 15%; }
+//div#fancybox-inner { background: url('../img/bg-ant-detail.png') no-repeat; border: 0px; }
+a#fancybox-close { margin: 29px 33px 0 0; }
+div.fancy-bg { display: none; }
