@@ -10,10 +10,10 @@ function twitterCallback(twitter) {
       var status = twitter.results[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
         return '<a href="'+url+'">'+url+'</a>';
       }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
-        return  reply.charAt(0)+'<a href="http://www.twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+        return  reply.charAt(0)+'<a href="https://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
       });
 
-      statusHTML.push('<li><div style="font-weight:bold;"><a href="http://twitter.com/#!/'+username+'">'+username+'</a></div><span>'+status+'</span> &nbsp;<a href="http://twitter.com/#!/'+username+'/status/'+twitter.results[i].id_str+'">'+relative_time(twitter.results[i].created_at)+'</a></li>');
+      statusHTML.push('<li><div style="font-weight:bold;"><a href="https://twitter.com/'+username+'">'+username+'</a></div><span>'+status+'</span> &nbsp;<a href="https://twitter.com/'+username+'/status/'+twitter.results[i].id_str+'">'+relative_time(twitter.results[i].created_at)+'</a></li>');
     }
   }
 
