@@ -2,7 +2,7 @@ function twitterCallback(twitter) {
   // Es fehlt der Stream von @antswithfriends selbst. Das wären dann zwei Suchen bzw. Streams,
   // aber wir haben nur einen Link zu den Tweets.
   var statusHTML = [];
-  var allowedUsers = ["antswithfriends","supersoon","tfoe","bahne","crasch","dbloete","frank_oe","lirontocker","moeffju","coffeemick","mthie","peterlih","ralphathamburg","herr_schaft","hamburgstartups","notfrombrooklyn","9600baud"];
+  var allowedUsers = ["antswithfriends","supersoon","tfoe","bahne","crasch","dbloete","frank_oe","lirontocker","moeffju","mnordmeyer","mthie","peterlih","ralphathamburg","herr_schaft","hamburgstartups","notfrombrooklyn","9600baud"];
 
   for (var i = 0; i < twitter.results.length && i < 4; i++){
     var username = twitter.results[i].from_user;
