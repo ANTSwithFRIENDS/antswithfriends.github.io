@@ -2,7 +2,7 @@
 
 ## Github Pages
 
-Die Website wird automatisch bei [Github Pages](https://pages.github.com/) unter [antswithfriends.github.io](antswithfriends.github.io) gehostet. Im Prinzip wird dieses Repositiory automatisch von Github deployed, sobald ein commit statt findet. 
+Die Website wird automatisch bei [Github Pages](https://pages.github.com/) unter [antswithfriends.github.io](http://antswithfriends.github.io/) gehostet. Im Prinzip wird dieses Repositiory automatisch von Github deployed, sobald ein commit statt findet. 
 
 ## Photos
 
